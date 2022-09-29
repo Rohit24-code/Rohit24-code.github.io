@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
+import Toggleimg from "../assets/img/Toggleimg.png";
 // import projImg3 from "../assets/img/project-img3.png";
 import zaraimg from "../assets/img/zara.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -57,6 +58,19 @@ export const Projects = () => {
         <SiCss3 size={28} />,
         <IoLogoJavascript size={32} />,
         <FaBootstrap size={28} />,
+      ],
+    },
+    {
+      title: "Toggle Track Clone",
+      description:
+        "An extremly popular Tracking application to track you precious time being spend.It has all features",
+      imgUrl: Toggleimg,
+      git: "https://github.com/Rohit24-code/Toggle_Track_clone",
+      url: "https://toggl-clone.vercel.app/",
+      techstack: [
+        <FaReact size={32} />,
+        <FaDharmachakra size={28} />,
+        <SiCss3 size={28} />,
       ],
     },
   ];
