@@ -7,9 +7,9 @@ import Toggleimg from "../assets/img/Toggleimg.png";
 import zaraimg from "../assets/img/zara.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
-import { DiReact } from 'react-icons/di'
+import { DiNodejs } from "react-icons/di";
 import { FaDharmachakra, FaBootstrap, FaReact } from "react-icons/fa";
-import { SiCss3 } from "react-icons/si";
+import { SiCss3, SiExpress, SiMongodb, SiRedux } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
 import { IoLogoJavascript } from "react-icons/io";
 import TrackVisibility from 'react-on-screen';
@@ -63,14 +63,18 @@ export const Projects = () => {
     {
       title: "Toggle Track Clone",
       description:
-        "An extremly popular Tracking application to track you precious time being spend.It has all features",
+        "An extremly popular Tracking application to track you precious time being spend.It has all the CRUD operations and your password will be hashed too",
       imgUrl: Toggleimg,
       git: "https://github.com/Rohit24-code/Toggle_Track_clone",
-      url: "https://toggl-clone.vercel.app/",
+      url: "https://toggletrack-rho.vercel.app/",
       techstack: [
         <FaReact size={32} />,
         <FaDharmachakra size={28} />,
         <SiCss3 size={28} />,
+        <SiExpress size={28} />,
+        <SiMongodb size={28} />,
+        <SiRedux size={28} />,
+        <DiNodejs size={28} />,
       ],
     },
   ];
