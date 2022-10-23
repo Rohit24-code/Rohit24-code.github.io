@@ -25,7 +25,7 @@ export const Projects = () => {
         "An extremly popular E-commerce application to shop online clothing & accessories.It has all features from sign-up to order placement",
       imgUrl: zaraimg,
       git: "https://github.com/Rohit24-code/Zara-clone",
-      url: "https://zara-clone-git-main-rohit24-code.vercel.app/",
+      url: "https://zara-clone-rohit24-code.vercel.app/",
       techstack: [
         <FaReact size={32} />,
         <FaDharmachakra size={28} />,
